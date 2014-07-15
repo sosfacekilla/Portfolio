@@ -31,6 +31,8 @@ gem 'spring',        group: :development
 
 gem 'foundation-rails'
 
+gem 'rails_12factor'
+
 
 # Use unicorn as the app server
 # gem 'unicorn'
