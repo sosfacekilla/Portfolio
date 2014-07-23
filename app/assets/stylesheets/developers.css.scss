@@ -96,17 +96,18 @@ p.text {
 	display: inline-block;
 }
 
-ul#horizontal-list {
-	position: static;
-	margin: 0 auto;
-	width: 100%;
+p.alberttext {
+	color: #666666;
+	height: 10px;
+	margin-top: 20px;
+	font-family: 'Dosis', sans-serif;
+	font-size: 25px;
+	position: relative;
+	margin-left: 10px;
+	display: inline-block;
+	margin-top: 100px;
 }
 
-li {
-	display: inline;
-	list-style-type: none;
-	float: left;
-}
 
 div#mark {
 	padding-top: 15px;
@@ -115,6 +116,7 @@ div#mark {
 	position: relative;
 	margin: 0 auto;
 	display: inline-block;
+
 }
 
 img.mark {
@@ -142,7 +144,7 @@ div#alex {
 	width: 400px;
 	height: 400px;
 	margin: 0 auto;
-	positon: absolute;
+	display: inline-block;
 	float: center;
 }
 
@@ -161,8 +163,9 @@ div#albert {
 	padding-top: 15px;
 	width: 400px;
 	height: 400px;
-	position: fixed;
+	position: relative;
 	margin: 0 auto;
+	display: inline-block;
 }
 
 img.albert {
@@ -356,14 +359,4 @@ li.cta-button {
 	padding-bottom: 10px;
 }
 
-a {
-	float: center;
-	font-color: black;
-}
-
-div.contact {
-	padding-top: 200px;
-	background-color: white;
-	border: 1px solid-black;
-}
 
