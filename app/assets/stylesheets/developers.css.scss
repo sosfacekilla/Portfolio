@@ -4,6 +4,7 @@
 
 
 
+
 .backing {
 	margin-bottom: 5px;
 	text-transform: uppercase;
@@ -95,13 +96,25 @@ p.text {
 	display: inline-block;
 }
 
+ul#horizontal-list {
+	position: static;
+	margin: 0 auto;
+	width: 100%;
+}
+
+li {
+	display: inline;
+	list-style-type: none;
+	float: left;
+}
+
 div#mark {
 	padding-top: 15px;
 	width: 400px;
 	height: 400px;
-	float: left;
-	display: inline-block;
+	position: relative;
 	margin: 0 auto;
+	display: inline-block;
 }
 
 img.mark {
@@ -128,9 +141,9 @@ div#alex {
 	padding-top: 15px;
 	width: 400px;
 	height: 400px;
-	float: center;
-	display: inline-block;
 	margin: 0 auto;
+	positon: absolute;
+	float: center;
 }
 
 img.alex {
@@ -148,10 +161,8 @@ div#albert {
 	padding-top: 15px;
 	width: 400px;
 	height: 400px;
-	float: right;
-	display: inline-block;
+	position: fixed;
 	margin: 0 auto;
-
 }
 
 img.albert {
@@ -162,7 +173,7 @@ img.albert {
 
 
 img.albert:hover {
-	
+
 	position: relative;
 	background-image: url('albertheadshot.jpg');
 	background-width:330px;
@@ -199,7 +210,7 @@ img.albert:hover {
 	}
 
 #slide-4 .bcg {
-	background-color: #b19d6f;
+	background-color: #b3c0e4;
 	height: 600px;
 }
 
@@ -269,9 +280,7 @@ img.wildcat {
 	margin-top: 25px;
 }
 
-img.buy {
 
-}
 
 div.projects { 
 	height: 100%; 
@@ -347,30 +356,14 @@ li.cta-button {
 	padding-bottom: 10px;
 }
 
+a {
+	float: center;
+	font-color: black;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+div.contact {
+	padding-top: 200px;
+	background-color: white;
+	border: 1px solid-black;
+}
 

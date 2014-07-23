@@ -12,27 +12,36 @@
 		<h1>Web Developer</h1>
 		<%= image_tag 'cart.jpg' %>
 			<table class="table table-hover" class="table">
+
+			
+
 			<div class="developers">
-				<div id="mark">
+				<ul id="horizontal-list">
+				<li><div id="mark">
 				  <p class="name"> Out Of Stock</p>
 				  <p class="text">Mark Zuckerberg</p>
 				  <%= image_tag 'markheadshot.jpg', class: 'mark' %>
-				</div>
+				</div></li>
 
-				<div id="alex">
+				<li><div id="alex">
 				  <p class="name"> In Stock</p>
 				  <p class="text">Alexandra Sos</p>
 				  <a href="http://alexsos.herokuapp.com/developers/show"><%= image_tag 'alexheadshot.jpg', class: 'alex' %></a>
-				</div>
+				</div></li>
 
-				<div id="albert">
+				<li><div id="albert">
 				  <p class="name"> Out Of Stock</p>
 				  <p class="text">Albert Einstein</p>
 				  <%= image_tag 'albertheadshot.jpg', class: 'albert' %>
-				</div>
+				</div></li>
+
+			</ul>
 
 			</div>
 
+
 			</table>
-	
+
+		</div>
+
     </div>
