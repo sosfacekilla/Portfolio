@@ -96,6 +96,8 @@ p.text {
 	display: inline-block;
 }
 
+
+
 div#mark {
 	padding-top: 15px;
 	width: 400px;
@@ -104,6 +106,7 @@ div#mark {
 	margin: 0 auto;
 	display: inline-block;
 	float: left;
+	position: relative;
 
 }
 
@@ -133,7 +136,8 @@ div#alex {
 	height: 400px;
 	margin: 0 auto;
 	display: inline-block;
-	float: center;
+
+
 	position: relative;
 }
 
@@ -155,7 +159,7 @@ div#albert {
 	position: relative;
 	margin: 0 auto;
 	display: inline-block;
-	float: right;
+
 }
 
 img.albert {
@@ -349,8 +353,5 @@ li.cta-button {
 	padding-bottom: 10px;
 }
 
-div.hsContent {
-	backgroun-color: #b3c0e4;
-}
 
 
