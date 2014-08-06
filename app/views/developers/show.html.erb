@@ -91,23 +91,31 @@
  <div class="row" data-equalizer>
   <div class="large-3 columns panel" data-equalizer-watch>
      <a href='http://comedian-seal-77358.bitballoon.com/'>TicTacToe</a>
-     <a href='http://comedian-seal-77358.bitballoon.com/'><%= image_tag 'tictactoe.jpg' %></a>
+      <%= link_to 'http://comedian-seal-77358.bitballoon.com/' do %>
+     <%= image_tag 'tictactoe.jpg' %>
+     <% end %>
      <p class="projtext">My first ever project, creating the game tictactoe with the use of javascript and angular js</p>
   </div>
   <div class="large-3 columns panel" data-equalizer-watch>
     <a href='http://trivia-pursuit.herokuapp.com/bars'>TriviaPursuit</a>
-    <a href='http://trivia-pursuit.herokuapp.com/bars'><%= image_tag 'triviapursuit.jpg' %></a>
+      <%= link_to 'http://trivia-pursuit.herokuapp.com/bars' do %>
+      <%= image_tag 'triviapursuit.jpg' %>
+      <% end %>
     <p class="projtext">(Team Project) </br> Wanting to be able to find bar trivia information, we created an app that finds bar trivia near you with the help of the yelp api. We handwrote authentication and also used the gmaps api with ruby on rails and mongo for the data</p>
 
   </div>
   <div class="large-3 columns panel" data-equalizer-watch>
     <a href='http://play-la.herokuapp.com/'>Play-LA</a>
-    <a href='http://play-la.herokuapp.com/'><%= image_tag 'playla.jpg' %></a>
+      <%= link_to 'http://play-la.herokuapp.com/' do %>
+      <%= image_tag 'playla.jpg' %></a>
+      <% end %>
     <p class="projtext">(Team Project) </br>A breakthrough project that creates a playlist according to your location. With about 10,000 metro stops in la, we assigned each stop to a song relevant to its location</p>
   </div>
   <div class="large-3 columns panel" data-equalizer-watch>
     <a href='http://laguestlist.herokuapp.com/'>laguestlist</a>
-    <a href='http://laguestlist.herokuapp.com/'><%= image_tag 'laguestlist.jpg' %></a>
+    <%= link_to 'http://laguestlist.herokuapp.com/' do %>
+    <%= image_tag 'laguestlist.jpg' %>
+    <% end %>
     <p class="projtext">Being passionate about marketing and branding, I created a company that follows events in Los Angeles</p>
   </div>
 </div>
