@@ -18,7 +18,9 @@
                 data-top="bottom: 1200px; opacity: 0"
                 data-anchor-target="#slide-1 h2">
                 <div class="slidetwo">
-            	<a href="http://alexsos.herokuapp.com/developers/"><%= image_tag 'checkout1.jpg', class: 'checkout' %></a>
+            	<%= link_to '/developers' do %>
+              <%= image_tag 'checkout1.jpg', class: 'checkout' %>
+              <% end %>
 
             	<div class="profile">
             		<div class="google"></div>
@@ -144,7 +146,7 @@
   <li class="bullet-item"><a href='https://github.com/sosfacekilla'>Github</a></li>
   <li class="bullet-item"><a href='http://vimeo.com/sosfacekillah'>Vimeo</a></li>
   <li class="bullet-item">alexandra.d.sos@gmail.com</li>
-  <li class="cta-button"><a href="http://alexsos.herokuapp.com/developers/show"><%= image_tag 'buy.jpg', class: 'buy' %></a></li>
+  <li class="cta-button"><%= link_to '/developers/show' do %><%= image_tag 'buy.jpg', class: 'buy' %><% end %></li>
 </ul>
 
        
