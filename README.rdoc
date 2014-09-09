@@ -1,28 +1,22 @@
-== README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+www.alexandrasos.com
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+A display of my work as a webdeveloper
+
+Used Foundation and Ruby on Rails
+
+Looks like an e-commerce site where 
+you are able to purchase a web-developer
+Click on me to see me as a "product"
+and then you are able to checkout with "me" in your cart
+
+To install in terminal :
+
+1. have psql installed
+
+
+In File:
+
+2. bundle install
+
+3. rails s
